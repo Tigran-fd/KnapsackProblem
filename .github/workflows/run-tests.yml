@@ -1,4 +1,4 @@
-name: C++ CI
+name: Run Tests
 
 on:
   push:
@@ -13,13 +13,20 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-      - name: Set up CMake
-        uses: actions/setup-cmake@v2
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-      - name: Set up build directory
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y cmake
+          ./install_requirements.sh
+
+      - name: Build project
         run: |
           mkdir build
           cd build
@@ -29,4 +36,4 @@ jobs:
       - name: Run tests
         run: |
           cd build
-          ctest --output-on-failure  # Run tests and show output on failure
+          ctest --output-on-failure
