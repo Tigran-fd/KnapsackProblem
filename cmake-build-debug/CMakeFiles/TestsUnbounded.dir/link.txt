@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic CMakeFiles/TestsUnbounded.dir/tests/UnboundedKnapsackTests.cpp.o -o TestsUnbounded  -lpthread /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a

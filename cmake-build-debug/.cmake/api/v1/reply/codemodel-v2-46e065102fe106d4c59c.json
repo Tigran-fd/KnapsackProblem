@@ -1,0 +1,87 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "KnapsackProblem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "KnapsackProblem::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-KnapsackProblem-Debug-e5b5f1621387627f4dad.json",
+					"name" : "KnapsackProblem",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestsBounded::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestsBounded-Debug-30e288aa5fa8cff594e7.json",
+					"name" : "TestsBounded",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestsUnbounded::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestsUnbounded-Debug-a99d431916c5eda8fca0.json",
+					"name" : "TestsUnbounded",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "TestsZeroOne::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TestsZeroOne-Debug-0b0eeced3bd64b661215.json",
+					"name" : "TestsZeroOne",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tigran/Downloads/KnapsackProblem/cmake-build-debug",
+		"source" : "/home/tigran/Downloads/KnapsackProblem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
