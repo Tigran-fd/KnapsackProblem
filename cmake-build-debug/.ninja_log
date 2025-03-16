@@ -1,5 +1,0 @@
-# ninja log v6
-0	633	1741887769694545638	CMakeFiles/Tests.dir/tests/UnboundedKnapsackTests.cpp.o	eb57d80768e6adb4
-634	685	1741887770327544009	Tests	584f1b27960cafd8
-1	209	1741887775325531074	CMakeFiles/KnapsackProblem.dir/src/main.cpp.o	3c5f393ae2f2d505
-209	267	1741887775533530533	KnapsackProblem	77acf7e8d95f9b1b
