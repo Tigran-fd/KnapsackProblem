@@ -11,12 +11,6 @@ set(SOURCE_FILES
         src/main.cpp
 )
 
-set(TEST_FILES
-        tests/UnboundedKnapsackTests.cpp
-        tests/ZeroOneKnapsackTests.cpp
-        tests/BoundedKnapsackTests.cpp
-)
-
 add_executable(KnapsackProblem ${SOURCE_FILES})
 
 add_executable(TestsUnbounded tests/UnboundedKnapsackTests.cpp)
