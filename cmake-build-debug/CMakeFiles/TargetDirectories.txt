@@ -1,6 +1,0 @@
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/KnapsackProblem.dir
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/TestsUnbounded.dir
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/TestsZeroOne.dir
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/TestsBounded.dir
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/tigran/Downloads/KnapsackProblem/cmake-build-debug/CMakeFiles/rebuild_cache.dir

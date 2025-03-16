@@ -1,1 +1,0 @@
-/usr/bin/c++ -g -rdynamic CMakeFiles/TestsZeroOne.dir/tests/ZeroOneKnapsackTests.cpp.o -o TestsZeroOne  -lpthread /usr/lib/x86_64-linux-gnu/libgtest_main.a /usr/lib/x86_64-linux-gnu/libgtest.a
